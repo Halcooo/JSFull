@@ -1,0 +1,137 @@
+body {
+  background-color: aquamarine;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.login-form {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 5% auto;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin: 55px 0;
+  font-size: 42px;
+}
+
+.login-form input,
+.blog-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #889199;
+  font-size: 18px;
+  outline: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 19, 121, 1) 42%,
+    rgba(192, 0, 255, 1) 100%
+  );
+}
+
+.login-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#login-form p {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.error-msg {
+  font-size: 22px;
+  color: red;
+  font-weight: 400;
+  display: none;
+}
+
+.nav {
+  height: 70px;
+  background-color: salmon;
+  position: relative;
+  display: none;
+}
+
+.logout-block {
+  position: absolute;
+  right: 20px;
+  padding: 10px 4px;
+}
+
+.blog-area {
+  position: relative;
+  top: 70px;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.blog-post-btn {
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background: rgb(59, 230, 110);
+}
+
+.blog-post-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.posted-blog {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.blog-title {
+  font-size: 24px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.input-komentar {
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 100%;
+  box-sizing: border-box;
+}
+.p-komentar {
+  padding: 7px;
+  margin: 0px;
+}
+.kom-div {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+h4 {
+  margin: 0px;
+}

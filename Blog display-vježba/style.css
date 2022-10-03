@@ -1,0 +1,162 @@
+body {
+  background-image: url("https://www.business2community.com/wp-content/uploads/2020/08/The-Importance-of-Blogs-to-Increase-Engagement-.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.login-form {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 5% auto;
+  display: none;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin: 55px 0;
+  font-size: 42px;
+}
+
+.login-form input,
+.blog-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #889199;
+  font-size: 18px;
+  outline: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 19, 121, 1) 42%,
+    rgba(192, 0, 255, 1) 100%
+  );
+}
+
+.login-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#login-form p {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.error-msg {
+  font-size: 22px;
+  color: red;
+  font-weight: 400;
+  display: none;
+}
+
+.nav {
+  height: 70px;
+  background-color: #6a4ff0;
+  position: relative;
+}
+
+.logout-block {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  right: 20px;
+  padding: 10px 4px;
+  display: none;
+}
+
+.blog-area {
+  position: relative;
+  top: 70px;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.blog-post-btn {
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background: rgb(59, 230, 110);
+}
+
+.blog-post-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.posted-blog {
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.blog-title {
+  font-size: 24px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #4eed74;
+}
+.delete {
+  font-weight: 900;
+  font-size: 20px;
+  background-color: lightsalmon;
+  border: none;
+  float: right;
+  border-radius: 6px;
+}
+.delete:hover {
+  background-color: maroon;
+  cursor: pointer;
+}
+#sign-btn {
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background: rgb(59, 230, 110);
+  float: right;
+  width: 100px;
+  display: inline;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#sign-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#post-blog {
+  display: none;
+}

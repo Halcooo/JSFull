@@ -1,0 +1,182 @@
+body {
+  background-image: url("https://assets.keap.com/image/upload/b_rgb:FFFFFF,c_limit,dpr_2,f_auto,h_395,q_95,w_569/v1535052909/infusionsoft.com/homepage/GettyImages-626669886.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  display: block;
+}
+
+.login-form {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 5% auto;
+  display: none;
+}
+
+.login-form h1 {
+  text-align: center;
+  margin: 55px 0;
+  font-size: 42px;
+}
+
+.login-form input,
+.blog-input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #889199;
+  font-size: 18px;
+  outline: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 19, 121, 1) 42%,
+    rgba(192, 0, 255, 1) 100%
+  );
+}
+
+.login-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#login-form p {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.error-msg {
+  font-size: 22px;
+  color: red;
+  font-weight: 400;
+  display: none;
+}
+
+.nav {
+  height: 70px;
+  background-color: #877bbe;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.user-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  padding: 10px 4px;
+  align-items: center;
+  gap: 10px;
+}
+
+.logout-block {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.blog-area {
+  position: relative;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.blog-post-btn {
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  background: rgb(59, 230, 110);
+}
+
+.blog-post-btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.posted-blog {
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.blog-title {
+  font-size: 24px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  color: #4eed74;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.blog-delete-btn {
+  border: none;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.blog-delete-btn:hover {
+  color: red;
+}
+
+.like-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 7px;
+}
+
+.like-icons i:hover {
+  cursor: pointer;
+}
+
+#user-name {
+  color: white;
+  font-weight: 700;
+}
+.user:hover {
+  cursor: pointer;
+  color: blue;
+}
+.wrapper-profil {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.57);
+  font-size: 1.1em;
+  border: 1px solid white;
+  width: 30%;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  display: none;
+}

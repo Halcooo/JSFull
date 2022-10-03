@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="logout-block">
+        <button onclick="logout()">Logout</button>
+        <span id="user-name"></span>
+        <img
+          style="border-radius: 50%"
+          height="50"
+          src="https://thumbs.dreamstime.com/b/male-avatar-icon-flat-style-male-user-icon-cartoon-man-avatar-hipster-vector-stock-91462914.jpg"
+          alt=""
+        />
+      </div>
+      <div class="blog-area">
+        <input
+          id="blog-title"
+          class="blog-input"
+          type="text"
+          placeholder="Blog title"
+        />
+        <textarea
+          id="blog-desc"
+          class="blog-input"
+          placeholder="Blog story..."
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button onclick="postBLog()" class="blog-post-btn">Post blog</button>
+        <br />
+        <hr />
+        <input
+          onkeyup="searchBlogs(event)"
+          id="blog-title"
+          class="blog-input"
+          type="text"
+          placeholder="Search for blog...."
+        />
+
+        <div id="published-blogs"></div>
+      </div>
+    </div>
+
+    <div id="login-form" class="login-form">
+      <h1>Login</h1>
+      <input id="email" type="text" placeholder="Email or Username" />
+      <input
+        onkeyup="loginOnEnter(event)"
+        id="password"
+        type="password"
+        placeholder="Password"
+      />
+      <p class="error-msg">Invalid Credentials!</p>
+      <button onclick="login()" class="login-btn">Login</button>
+      <p>
+        Don't have an account?<a onclick="goToSignupForm()" href="#">Sign up</a>
+      </p>
+    </div>
+
+    <div id="signup-form" class="login-form">
+      <h1>SignUp</h1>
+      <input id="name" type="text" placeholder="Name" />
+      <input id="su-email" type="text" placeholder="Email" />
+      <input id="address" type="text" placeholder="Address" />
+      <input id="username" type="text" placeholder="Username" />
+      <input id="su-password" type="password" placeholder="Password" />
+      <button onclick="registerNow()" class="login-btn">Register Now</button>
+      <p><a onclick="goToLoginForm()" href="#">Login</a></p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

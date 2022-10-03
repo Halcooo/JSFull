@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <img style="padding: 10px 20px" height="50"
+                src="https://www.inspire-writer.com/blog/wp-content/uploads/2019/03/noframe_256.png" alt="" />
+            <div class="user-info">
+                <div class="logout-block">
+                    <span id="user-name"></span>
+                    <img style="border-radius: 50%" height="50"
+                        src="https://thumbs.dreamstime.com/b/male-avatar-icon-flat-style-male-user-icon-cartoon-man-avatar-hipster-vector-stock-91462914.jpg"
+                        alt="" />
+                    <i onclick="logout()" class="fa fa-power-off"
+                        style="font-size: 32px; color: red; cursor: pointer"></i>
+                </div>
+                <button onclick="logout()" class="sign-in">SignIn</button>
+            </div>
+        </div>
+        <div class="blog-area">
+            <input onkeyup="searchBlogs(event)" class="blog-input" type="text" placeholder="Search for blog...." />
+            <div class="add-blog-form">
+                <input id="blog-title" class="blog-input" type="text" placeholder="Blog title" />
+                <textarea id="blog-desc" class="blog-input" placeholder="Blog story..." cols="30" rows="10"></textarea>
+                <button onclick="postBLog()" class="blog-post-btn">Post blog</button>
+            </div>
+            <div id="published-blogs"></div>
+        </div>
+    </div>
+
+    <div id="login-form" class="login-form">
+        <h1>Login</h1>
+        <input id="email" type="text" placeholder="Email or Username" />
+        <input onkeyup="loginOnEnter(event)" id="password" type="password" placeholder="Password" />
+        <p class="error-msg">Invalid Credentials!</p>
+        <button onclick="login()" class="login-btn">Login</button>
+        <p>
+            Don't have an account?<a onclick="goToSignupForm()" href="#">Sign up</a>
+        </p>
+    </div>
+
+    <div id="signup-form" class="login-form">
+        <h1>SignUp</h1>
+        <input id="name" type="text" placeholder="Name" />
+        <input id="su-email" type="text" placeholder="Email" />
+        <input id="address" type="text" placeholder="Address" />
+        <input id="username" type="text" placeholder="Username" />
+        <input id="su-password" type="password" placeholder="Password" />
+        <button onclick="registerNow()" class="login-btn">Register Now</button>
+        <p><a onclick="goToLoginForm()" href="#">Login</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,54 @@
+body {
+  background-image: url("https://i2.wp.com/www.csscodelab.com/wp-content/uploads/2019/11/stripe-hero-background-effect-html-css.png?fit=1062%2C631&ssl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  border-color: bisque;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+.wraper {
+  margin: auto;
+  padding: 25px;
+  background-color: rgba(253, 220, 176, 0.45);
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 20px 20px 10px rgb(75, 75, 219);
+}
+form {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 28, 80);
+}
+select {
+  margin: auto;
+  display: block;
+}
+#date {
+  width: 162px;
+}
+#register {
+  width: 175px;
+  margin-top: 20px;
+  margin: auto;
+  margin-left: 30px;
+}
+p {
+  color: rgb(0, 28, 80);
+}
+label {
+  color: rgb(0, 28, 80);
+}
+#register:hover {
+  color: rgb(0, 28, 80);
+  cursor: pointer;
+}
